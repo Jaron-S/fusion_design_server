@@ -1,4 +1,4 @@
-# Fusion Design Ecommerce Server | Django Backend
+# Fusion Design E-commerce Server | Django Backend
 
 ## Table of Contents
 
@@ -10,7 +10,26 @@
 
 ## About the Project
 
-This Django backend serves as the server-side component for the Fusion Design Ecommerce platform, a high-end e-commerce solution built with NextJS on the frontend. The backend is designed to provide robust e-commerce functionalities, including user authentication, product management, order processing, and real-time data updates. It supports the frontend by handling dynamic product listings, managing user data, and processing transactions, ensuring a seamless and efficient online shopping experience.
+This Django backend is the server-side component for the Fusion Design E-commerce platform, a high-end e-commerce solution built with NextJS on the front end. The backend is designed to provide robust e-commerce functionalities, including user authentication, product management, order processing, and real-time data updates. It supports the front end by handling dynamic product listings, managing user data, and processing transactions, ensuring a seamless and efficient online shopping experience.
+
+## Live Demo
+
+Experience the live version of our application and explore its functionalities through the following links:
+
+- **Main Website:**
+  - Visit [Fusion Design Ecommerce](https://fusion-design.netlify.app/) to see the front-end in action, demonstrating a high-end e-commerce experience built with Next.js.
+
+- **Backend Server:**
+  - The Django backend server is hosted at [https://ionik.pythonanywhere.com](https://ionik.pythonanywhere.com):
+    - **Admin Panel:** Access the Django admin dashboard at `/admin` to manage the application's data effectively.
+    - **API Endpoints:** These endpoints are primarily used for the front-end to fetch data in JSON format:
+      - `/api/products`
+      - `/api/categories`
+      - `/api/carousel-items`
+    - **HTML Views:** Visit these paths to view the formatted data in HTML:
+      - `/products`
+      - `/categories`
+      - `/carousel`
 
 ## Technologies
 
