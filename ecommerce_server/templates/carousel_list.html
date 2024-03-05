@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Carousel Items</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .carousel-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+      padding: 8px;
+    }
+    .carousel-item {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      padding: 8px;
+      text-align: center;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Carousel Items</h1>
+  <div class="carousel-container">
+    {% for item in carousel_items %}
+    <div class="carousel-item">
+      {% if item.image %}
+      <img src="{{ item.image.url }}" alt="Carousel image" />
+      {% else %}
+      <div>No image available</div>
+      {% endif %}
+    </div>
+    {% empty %}
+    <div>No carousel items available.</div>
+    {% endfor %}
+  </div>
+</body>
+</html>
