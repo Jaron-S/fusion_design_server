@@ -18,7 +18,7 @@ Experience the live version of our application and explore its functionalities t
 
 ## Server
 
-The frontend code is available at [Fusion Design Server](https://github.com/Jaron-S/fusion-design-frontend).
+The frontend code is available at [Fusion Design Frontend](https://github.com/Jaron-S/fusion-design-frontend).
 
 - **Main Website:**
   - Visit [Fusion Design Ecommerce](https://fusion-design.netlify.app/) to see the front-end in action, demonstrating a high-end e-commerce experience built with Next.js.
